@@ -1,51 +1,80 @@
-
 @media (max-width: 768px) {
-
     body {
-        padding: 1rem;
-        margin: 0;
-        display: flex;
-        justify-content: center;
-        align-items: center;
+        padding: 20px;
         flex-direction: column;
-        box-sizing: border-box;
     }
 
-    .base, .control, .screen, .buttons {
-        max-width: 100%; 
-        margin: 0 auto; 
-        box-sizing: border-box; 
+    .container {
+        width: 100%;
+    }
+
+    .principal {
+        width: 100%;
+    }
+
+    .screen {
+        width: 100%;
     }
 
     #screen {
-        font-size: 1.5rem;
-        height: 80px;
-        padding: 15px;
-        box-sizing: border-box;
+        font-size: 24px;
     }
 
     .buttons {
-        display: grid;
-        grid-template-columns: repeat(4, 1fr);
-        gap: 8px;
-        padding: 0; 
-        margin: 0;
         width: 100%;
-        box-sizing: border-box; 
+        padding: 5px;
     }
 
     button {
-        font-size: 1.2rem;
-        padding: 0.5rem;
-        height: 65px;
-        width: 79%; 
-        box-sizing: border-box; 
+        width: calc(22% - 10px);
+        font-size: 24px;
+        margin: 5px;
     }
 
     .reset, .igual {
-        grid-column: span 2;
-        height: 70px;
-        font-size: 1.3rem;
+        width: calc(48% - 10px);
+        font-size: 20px;
     }
 }
 
+@media (max-width: 480px) {
+    .screen {
+        height: 80px;
+    }
+
+    #screen {
+        height: 60px;
+        font-size: 20px;
+        padding: 10px;
+    }
+
+    button {
+        width: calc(22% - 5px);
+        font-size: 18px;
+        padding: 10px;
+    }
+
+    .reset, .igual {
+        width: calc(48% - 5px);
+        font-size: 18px;
+        padding: 10px;
+    }
+
+    h3 {
+        font-size: 18px;
+    }
+
+    .control p {
+        margin-right: 10px;
+    }
+
+    .control .box {
+        width: 45px;
+        height: 12px;
+    }
+
+    .control #circle {
+        width: 12px;
+        height: 12px;
+    }
+}
