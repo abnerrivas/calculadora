@@ -263,10 +263,11 @@ body.active2 .igual {
         font-size: 28px;
     }
     .reset, .igual {
-        width: 100px;
+        width: 150px;
         color: #ffffff;
         font-size: 16px;
     }
+    
 }
 
 @media (max-width: 480px) {
@@ -288,7 +289,10 @@ body.active2 .igual {
     }
 
     .control p {
-        margin-right: 10px;
+        margin-right: 220px;
         font-size: 14px;
+    }
+    .base h3{
+        margin: 5px 7px;
     }
 }
