@@ -263,9 +263,9 @@ body.active2 .igual {
         font-size: 28px;
     }
     .reset, .igual {
-        width: 165px;
+        width: 180px;
         color: #ffffff;
-        font-size: 16px;
+        font-size: 18px;
     }
     
 }
@@ -276,15 +276,15 @@ body.active2 .igual {
     }
 
     button {
-        width: 80px;
-        padding: 25px;
-        font-size: 30px;
+        width: 85px;
+        padding: 15px;
+        font-size: 40px;
         margin: 5px;
     }
 
 
     #screen {
-        height: 60px;
+        height: 70px;
         font-size: 20px;
     }
 
@@ -295,7 +295,9 @@ body.active2 .igual {
     .base h3{
         margin: 10px 15px;
     }
-    .base{
-        margin:0 2px;
+    .base p{
+        margin: 7px 5px;
+    color: #FFF;
+    cursor: pointer;
     }
 }
